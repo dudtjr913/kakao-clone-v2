@@ -1,0 +1,7 @@
+.find .header-btn__title {
+  display: block;
+}
+
+.find .header-btn {
+  display: flex;
+}
