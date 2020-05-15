@@ -1,0 +1,64 @@
+.more .more__btn-list {
+  margin-top: 35px;
+  display: flex;
+  cursor: pointer;
+}
+
+.more .more__btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 50px;
+  margin-left: 10px;
+}
+
+.more .more__btn-icon {
+  font-size: 15px;
+}
+
+.more .more__btn-title {
+  margin-top: 8px;
+  font-size: 14px;
+}
+
+.more .more__suggestions {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid #f2f2f2;
+}
+
+.more .more__title {
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.more .more__suggestions-list {
+  display: flex;
+}
+
+.more .suggestion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.suggestion .suggestion__icon {
+  font-size: 15px;
+  padding: 10px;
+  background-color: #fae100;
+  border-radius: 10px;
+}
+
+.suggestion .suggestion__title {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #a0a0a0;
+}
+
+.suggestion__icon i {
+  font-size: 28px;
+  color: white;
+}
