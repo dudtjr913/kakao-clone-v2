@@ -12,31 +12,33 @@
     <title>Settings | Kakao Clone</title>
   </head>
   <body>
-    <div class="status-bar">
-      <div class="status-bar__column">
-        <span class="status-bar__clock">13:53</span>
+    <div class="header-wrapper">
+      <div class="status-bar">
+        <div class="status-bar__column">
+          <span class="status-bar__clock">13:53</span>
+        </div>
+        <div class="status-bar__column">
+          <i class="fas fa-clock"></i>
+          <i class="fas fa-volume-mute"></i>
+          <i class="fas fa-wifi"></i>
+          <span class="status-bar__battery-level">100%</span>
+          <i class="fas fa-battery-full"></i>
+        </div>
       </div>
-      <div class="status-bar__column">
-        <i class="fas fa-clock"></i>
-        <i class="fas fa-volume-mute"></i>
-        <i class="fas fa-wifi"></i>
-        <span class="status-bar__battery-level">100%</span>
-        <i class="fas fa-battery-full"></i>
-      </div>
+      <header class="header">
+        <div class="header__header-column">
+          <a href="more.html" class="header__back-btn">
+            <i class="fas fa-arrow-left"> </i>
+          </a>
+          <h1 class="header__title">설정</h1>
+        </div>
+        <div class="header__header-column">
+          <span class="header__icon">
+            <i class="fas fa-search"></i>
+          </span>
+        </div>
+      </header>
     </div>
-    <header class="header">
-      <div class="header__header-column">
-        <a href="more.html" class="header__back-btn">
-          <i class="fas fa-arrow-left"> </i>
-        </a>
-        <h1 class="header__title">Settings</h1>
-      </div>
-      <div class="header__header-column">
-        <span class="header__icon">
-          <i class="fas fa-search"></i>
-        </span>
-      </div>
-    </header>
     <main class="settings">
       <section class="settings__section">
         <ul class="settings__list">
@@ -44,19 +46,19 @@
             <span class="settings__icon">
               <i class="fas fa-bullhorn"></i>
             </span>
-            <span class="settings__title">Notices</span>
+            <span class="settings__title">공지사항</span>
           </li>
           <li class="settings__setting">
             <span class="settings__icon">
               <i class="fas fa-flask"></i>
             </span>
-            <span class="settings__title">Kakao Lab</span>
+            <span class="settings__title">실험실</span>
           </li>
           <li class="settings__setting">
             <span class="settings__icon">
               <i class="fas fa-info-circle"></i>
             </span>
-            <span class="settings__title">Version</span>
+            <span class="settings__title">버전</span>
           </li>
         </ul>
         <div class="settings__version">8.2.7</div>
@@ -67,49 +69,49 @@
             <span class="settings__icon">
               <i class="fas fa-lock"></i>
             </span>
-            <span class="settings__title">Privacy</span>
+            <span class="settings__title">개인/보안</span>
           </li>
           <li class="settings__setting">
             <span class="settings__icon">
               <i class="far fa-bell"></i>
             </span>
-            <span class="settings__title">Notifications</span>
+            <span class="settings__title">알림</span>
           </li>
           <li class="settings__setting">
             <span class="settings__icon">
               <i class="far fa-user"></i>
             </span>
-            <span class="settings__title">Friends</span>
+            <span class="settings__title">친구</span>
           </li>
           <li class="settings__setting">
             <span class="settings__icon">
               <i class="far fa-comment"></i>
             </span>
-            <span class="settings__title">Chats</span>
+            <span class="settings__title">채팅</span>
           </li>
           <li class="settings__setting">
             <span class="settings__icon">
               <i class="far fa-envelope"></i>
             </span>
-            <span class="settings__title">SMS Messages</span>
+            <span class="settings__title">문자 모아보기</span>
           </li>
           <li class="settings__setting">
             <span class="settings__icon">
               <i class="far fa-sun"></i>
             </span>
-            <span class="settings__title">Display</span>
+            <span class="settings__title">화면</span>
           </li>
           <li class="settings__setting">
             <span class="settings__icon">
               <i class="fas fa-brush"></i>
             </span>
-            <span class="settings__title">Themes</span>
+            <span class="settings__title">테마</span>
           </li>
           <li class="settings__setting">
             <span class="settings__icon">
               <i class="fas fa-ellipsis-h"></i>
             </span>
-            <span class="settings__title">Advanced Features</span>
+            <span class="settings__title">기타</span>
           </li>
         </ul>
       </section>
@@ -119,7 +121,7 @@
             <span class="settings__icon">
               <i class="far fa-question-circle"></i>
             </span>
-            <span class="settings__title">Support</span>
+            <span class="settings__title">고객센터/도움말</span>
           </li>
         </ul>
       </section>

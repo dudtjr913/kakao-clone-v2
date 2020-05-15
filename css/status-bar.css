@@ -2,12 +2,17 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 20px;
+  padding: 10px 20px;
   color: #666666;
 }
 .status-bar i {
   font-size: 14px;
 }
 
-span.status-bar__battery-level {
+.status-bar__battery-level {
   margin-left: 5px;
+}
+
+.status-bar .status-bar__clock {
+  font-size: 18px;
 }
