@@ -21,6 +21,7 @@
 .friend .friend__column {
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 
 .friend__content .friend__name {

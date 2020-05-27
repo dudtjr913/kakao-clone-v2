@@ -14,3 +14,7 @@
   font-size: 14px;
   color: #808080;
 }
+
+.friends__list .friends__friend {
+  margin-bottom: 10px;
+}

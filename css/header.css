@@ -6,15 +6,32 @@
   padding: 0px 20px;
 }
 
+.header__plus {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 22px;
+}
+
+.header__plus .header-title {
+  cursor: pointer;
+}
+
+.header__plus .header-title:nth-child(2) {
+  font-weight: 700;
+}
+
 .header-wrapper {
   position: fixed;
-  background-color: white;
+  background-color: #f5f6f7;
   width: 100%;
   top: 0;
+  z-index: 1;
 }
 
 .header .header__title {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 700;
 }
 
